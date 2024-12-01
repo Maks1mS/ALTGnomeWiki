@@ -78,8 +78,6 @@ flatpak install cassette-nightly io.github.Rirusha.Cassette-Devel
 Подкасты и книги
 :::
 
-Все запланированные фичи можно [посмотреть в бэклоге](https://gitlab.gnome.org/Rirusha/Cassette/-/boards)
-
 ## Как помочь Кассете
 
 - Создать [Issue](https://gitlab.gnome.org/Rirusha/Cassette/-/issues) с проблемой или предложением по улучшению;
