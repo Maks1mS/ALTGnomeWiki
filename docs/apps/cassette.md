@@ -17,8 +17,8 @@ appstream:
     nickname: Rirusha
     avatar: https://avatars.githubusercontent.com/u/95986183?v=4
   url:
-    homepage: https://github.com/Rirusha/Cassette
-    bugtracker: https://github.com/Rirusha/Cassette/issues
+    homepage: https://gitlab.gnome.org/Rirusha/Cassette
+    bugtracker: https://gitlab.gnome.org/Rirusha/Cassette/-/issues
     translate: https://l10n.gnome.org/module/cassette/
     donation: https://www.tinkoff.ru/collectmoney/crowd/vaskov.vladimir19/Uhi7d15460/
 gallery:
@@ -78,12 +78,12 @@ flatpak install cassette-nightly io.github.Rirusha.Cassette-Devel
 Подкасты и книги
 :::
 
-Все запланированные фичи можно [посмотреть в бэклоге](https://github.com/users/Rirusha/projects/2)
+Все запланированные фичи можно [посмотреть в бэклоге](https://gitlab.gnome.org/Rirusha/Cassette/-/boards)
 
 ## Как помочь Кассете
 
-- Создать [Issue](https://github.com/Rirusha/Cassette/issues) с проблемой или предложением по улучшению;
-- Сделать [Pull Request](https://github.com/Rirusha/Cassette/pulls) с фиксом или добавлением функционала;
+- Создать [Issue](https://gitlab.gnome.org/Rirusha/Cassette/-/issues) с проблемой или предложением по улучшению;
+- Сделать [Merge Request](https://gitlab.gnome.org/Rirusha/Cassette/-/merge_requests) с фиксом или добавлением функционала;
 - [Поддержать рублём](https://www.tinkoff.ru/collectmoney/crowd/vaskov.vladimir19/Uhi7d15460). Просьба указывать в «Сообщении получателю» свой ник, иначе автор проекта не сможет добавить вас в соответствующий блок окна `About` (система Тинькофф, к сожалению, не указывает имя отправителя);
 - Написать отзыв в [Центре Приложений](/gnome-software) о Кассете.
 
