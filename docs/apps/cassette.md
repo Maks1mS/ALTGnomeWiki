@@ -1,9 +1,9 @@
 ---
 aggregation:
   sisyphus: cassette
-  flatpak: io.github.Rirusha.Cassette
+  flatpak: space.rirusha.Cassette
 appstream:
-  id: io.github.Rirusha.Cassette
+  id: space.rirusha.Cassette
   name: Кассета
   icon: /cassette/cassette-logo.svg
   summary: Неофициальный клиент Яндекс Музыки
@@ -54,8 +54,8 @@ flatpak install gnome-nightly org.gnome.Platform//master
 Подключаем Nightly-репозиторий и устанавливаем приложение:
 
 ```shell
-flatpak remote-add --if-not-exists cassette-nightly https://rirusha.github.io/Cassette/index.flatpakrepo
-flatpak install cassette-nightly io.github.Rirusha.Cassette-Devel
+flatpak remote-add --if-not-exists cassette-nightly https://rirusha.space/repos/cassette-nightly.flatpakrepo
+flatpak install cassette-nightly space.rirusha.Cassette-Devel
 ```
 
 ## Авторизация
@@ -98,7 +98,7 @@ flatpak install cassette-nightly io.github.Rirusha.Cassette-Devel
 Если у вас [Flatpak-версия](/flatpak), то выполните в терминале:
 
 ```shell
-WEBKIT_DISABLE_COMPOSITING_MODE=1 flatpak run io.github.Rirusha.Cassette
+WEBKIT_DISABLE_COMPOSITING_MODE=1 flatpak run space.rirusha.Cassette
 ```
 
 Или создайте строчку в блоке переменных окружения через [Flatseal](/flatseal) и перезапустите приложение.
@@ -125,7 +125,7 @@ Try "flatpak-spawn --help" for more information.
 Добавьте переменную окружения `LC_ALL`. Сделать это можно через терминал:
 
 ```shell
-flatpak override --env=LC_ALL="en_US.UTF-8" --user io.github.Rirusha.Cassette
+flatpak override --env=LC_ALL="en_US.UTF-8" --user space.rirusha.Cassette
 ```
 
 Или создайте строчку в блоке переменных окружения через [Flatseal](/flatseal) и перезапустите приложение.
